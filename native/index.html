@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма авторизации</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <canvas id="confetti"></canvas>
+    
+    <header>
+        <h1 class="logo">Linked<span class="in">in</span></h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <div class = 'wrapper'>
+                <form action = ''>
+                    <h2>Sign in</h2>
+                    <button class="signbtn">
+                        <img src="https://zveno-web.ru/wp-content/uploads/2019/09/google-1.jpg" alt="Google" class="icon">
+                        Continue with Google
+                    </button>
+                    <button class="signbtn">
+                        <img src="https://dark.shopping/media/products/ece19e8c72cd5e335581f08a000713ee.jpg" alt="Apple" class="icon">
+                        Sign in with Apple
+                    </button>
+
+                    <div class="divider"><span>or</span></div>
+                
+                    <div class='input-box'>
+                        <input type="text" placeholder="Email or phone" required>
+                    </div>
+
+                    <div class='password-box'>
+                        <input type="password" placeholder="Password" required>
+                        <span class="show">Show</span>
+                    </div>
+
+                    <div class="forgot-password">
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <div class="keep">
+                        <label><input type="checkbox"> Keep me logged in</label>
+                    </div>
+
+                    <button id="signin-btn" class="signin-btn">Sign in</button>
+                </form>
+            </div>
+
+            <div class="register-link">
+                    <p>New to LinkedIn? <a href="#">Join now</a></p>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+      <p>LinkedIn 2025 <a href="#">User Agreement</a> <a href="#">Privacy Policy</a> <a href="#">Community Guidelines</a>
+         <a href="#">Cookie Policy</a> <a href="#">Copyright Policy</a> <a href="#">Send feedback</a> <a href="#">Language</a></p>
+    </footer>
+  </body>
+</html>
+<script src="main.js"></script>
